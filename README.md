@@ -1,1 +1,1 @@
-# mobile
+# responsive
