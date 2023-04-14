@@ -5,7 +5,7 @@
 
 
 html{scroll-behavior: smooth;}
-
+*{box-sizing: border-box;}
 #wrap{
   font-family: 'Montserrat', sans-serif;
   font-family: 'Noto Sans KR', sans-serif;
@@ -18,7 +18,7 @@ html{scroll-behavior: smooth;}
 /*____________________ PC ____________________*/
 /*__________ Header __________*/
 header{
-  width: 100%;
+  width: 100vw;
   height: 1000px;
   text-transform: uppercase;
   margin: auto;
@@ -114,7 +114,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu01 - Minimalism */
 #gnb01{
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 1000px;
   background-color: #f0cfc3;
 }
@@ -130,10 +130,10 @@ header ul li:hover{color: #bb2649;}
   padding: 40px 100px;
 }
 .content01 span{
-  font-size: 100px;
+  font-size: 50px;
   font-weight: 200;
   color: #bb2649;
-  line-height: 150px;
+  line-height: 120px;
 }
 .content01 span:nth-child(1), .content01 span:nth-child(3){
   text-transform: uppercase;
@@ -207,7 +207,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu02 - Big & Detail Text */
 #gnb02{
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 1000px;
   background-color: #bfcad6;
 }
@@ -310,7 +310,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu03 - Intro Video */
 #gnb03{
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 1000px;
   background-color: #111111;
   display: flex;
@@ -418,7 +418,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu04 - Glassmorphism */
 #gnb04{
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 1000px;
   background-color: #bb2649;
 }
@@ -690,9 +690,15 @@ footer span b{
     height: 400px;
   }
   .content01 span{
-    font-size: 60px;
-    line-height: 130px;
+    position: absolute;
+    font-size: 40px;
+    line-height: 70px;
+    left: 50%;
+    transform: translateX(-50%);
   }
+  .content01 span:nth-child(1){top: 50px;}
+  .content01 span:nth-child(2){top: 160px;}
+  .content01 span:nth-child(3){top: 270px;}
   .dot01{
     width: 40px;
     height: 40px;
