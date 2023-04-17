@@ -447,65 +447,70 @@ header ul li:hover{color: #bb2649;}
 }
 .glass{
   position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 190px;
-  left: 430px;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #000;
 }
 .glass span{
+  position: absolute;
   border: 1px solid #000;
   width: 100%;
   height: 100%;
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 20px;
+  overflow: hidden;
 }
 .glass span:nth-child(1){
   width: 150px;
   height: 300px;
   top: 250px;
-  left: 270px;
+  left: 670px;
 }
 .glass span:nth-child(2){
   width: 300px;
   height: 200px;
   top: 400px;
-  left: -60px;
+  left: 360px;
 }
 .glass span:nth-child(3){
   width: 550px;
   height: 100px;
   top: 200px;
-  left: 120px;
+  left: 520px;
 }
 .glass span:nth-child(4){
   width: 100px;
   height: 100px;
   top: 50px;
-  left: 300px;
+  left: 700px;
 }
 .glass span:nth-child(5){
   width: 150px;
   height: 150px;
   top: 50px;
-  left: 690px;
+  left: 1090px;
 }
 .glass span:nth-child(6){
   width: 170px;
   height: 130px;
   top: 520px;
-  left: 720px;
+  left: 1120px;
 }
 .glass span:nth-child(7){
   width: 150px;
   height: 200px;
   top: 90px;
-  left: 550px;
+  left: 950px;
 }
 .glass span:nth-child(8){
   width: 120px;
   height: 120px;
   top: 30px;
-  left: 1170px;
+  left: 1570px;
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
@@ -515,13 +520,13 @@ header ul li:hover{color: #bb2649;}
   width: 270px;
   height: 190px;
   top: 350px;
-  left: 950px;
+  left: 1350px;
 }
 .glass span:nth-child(10){
   width: 190px;
   height: 120px;
   top: 400px;
-  left: 510px;
+  left: 910px;
 }
 .glass span:hover{
   background: rgba(255,255,255,0.1);
@@ -665,11 +670,7 @@ footer span b{
     font-size: 3.125vw;
   }
   .caption03{width: 700px}
-  .glass{
-    top: 190px;
-    left: 100px;
-  }
-  .content04 span{
+  .content04>span{
     width: 700px;
     left: 400px;
     font-size: 80px;
@@ -732,7 +733,7 @@ footer span b{
   .caption02 div p{top: -100px;}
   .caption02 a{bottom: 10px;}
   .content03 span{font-size: 24px;}
-  .content04 span{
+  .content04>span{
     width: 370px;
     top: 260px;
     left: 220px;
