@@ -688,7 +688,7 @@ footer span b{
   header .heading{width: 400px;}
   .title{font-size: 24px;}
   .content01{
-    width: 200px;
+    width: 150px;
     height: 400px;
   }
   .content01 span{
@@ -719,7 +719,7 @@ footer span b{
     font-size: calc(40px + 1vw);
     display: block;
   }
-  .content02 p{font-size: calc(50px + 2vw);}
+  .content02 p{font-size: calc(46px + 2vw);}
   .caption02{
     width: 350px;
     height: 500px;
