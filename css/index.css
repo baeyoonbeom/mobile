@@ -18,7 +18,7 @@ html{scroll-behavior: smooth;}
 /*____________________ PC ____________________*/
 /*__________ Header __________*/
 header{
-  width: 100vw;
+  width: 100%;
   height: 1000px;
   text-transform: uppercase;
   margin: auto;
@@ -114,7 +114,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu01 - Minimalism */
 #gnb01{
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 1000px;
   background-color: #f0cfc3;
 }
@@ -207,7 +207,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu02 - Big & Detail Text */
 #gnb02{
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 1000px;
   background-color: #bfcad6;
 }
@@ -310,7 +310,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu03 - Intro Video */
 #gnb03{
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 1000px;
   background-color: #111111;
   display: flex;
@@ -418,7 +418,7 @@ header ul li:hover{color: #bb2649;}
 /* Menu04 - Glassmorphism */
 #gnb04{
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 1000px;
   background-color: #bb2649;
 }
