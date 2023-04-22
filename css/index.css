@@ -147,13 +147,13 @@ header ul li:hover{color: #bb2649;}
   background-color: #bb2649;
   border-radius: 50%;
   bottom: -40px;
-  right: -40px;
+  left: -7%;
   cursor: pointer;
 }
 .caption01{
   position: absolute;
   bottom: 90px;
-  right: -12px;
+  left: -10%;
   width: 700px;
   height: 430px;
   border-radius: 20px;
@@ -216,7 +216,7 @@ header ul li:hover{color: #bb2649;}
   position: absolute;
   width: 90%;
   height: 700px;
-  top: 180px;
+  top: 200px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -242,8 +242,8 @@ header ul li:hover{color: #bb2649;}
 }
 .dot02{
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -10%;
+  left: 0;
   width: 60px;
   height: 60px;
   background-color: black;
@@ -253,7 +253,7 @@ header ul li:hover{color: #bb2649;}
 .caption02{
   position: absolute;
   top: 60px;
-  right: 50px;
+  left: 50%;
   width: 700px;
   height: 270px;
   border-radius: 20px;
@@ -357,15 +357,13 @@ header ul li:hover{color: #bb2649;}
   border-radius: 50%;
   background-color: #bb2649;
   bottom: -25px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: -4%;
   cursor: pointer;
 }
 .caption03{
   position: absolute;
   bottom: 75px;
-  left: 50%;
-  transform: translateX(-50%);
+  left: -130%;
   width: 1000px;
   height: 350px;
   border-radius: 20px;
@@ -539,15 +537,14 @@ header ul li:hover{color: #bb2649;}
   height: 80px;
   border-radius: 50%;
   background-color: #bfcad6;
-  top: 520px;
-  right: 60px;
+  top: 150px;
+  left: 10%;
   cursor: pointer;
 }
 .caption04{
   position: absolute;
-  top: 50%;
-  left: -630px;
-  transform: translateY(-50%);
+  top: 100px;
+  left: 10%;
   width: 600px;
   height: 450px;
   border-radius: 20px;
@@ -668,7 +665,10 @@ footer span b{
     font-size: 60px;
     font-size: 3.125vw;
   }
-  .caption03{width: 700px}
+  .caption03{
+    width: 700px;
+    left: 40%;
+  }
   .content04>span{
     width: 700px;
     left: 400px;
@@ -683,7 +683,7 @@ footer span b{
   .glass span:nth-child(8){display: none;}
   .glass span:nth-child(9){display: none;}
   .caption04{
-    left: -550px;
+
     width: 530px;
   }
 }
@@ -693,6 +693,7 @@ footer span b{
 /*____________________ Mobile ____________________*/
 @media all and (max-width:767px){
   header .heading{width: 350px;}
+  header ul li{font-size: 20px;}
   .title{font-size: 24px;}
   .content01{
     width: 150px;
@@ -717,7 +718,6 @@ footer span b{
     width: 320px;
     height: 420px;
     bottom: 50px;
-    left: -790%;
   }
   .caption01 div{
     width: 300px;
@@ -736,19 +736,21 @@ footer span b{
   .caption02{
     width: 320px;
     height: 500px;
-    left: -310px;
   }
   .caption02 div{
     width: 280px;
     top: 150px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16px;
+    font-size: 15px;
   }
   .caption02 div p{top: -100px;}
   .caption02 a{bottom: 10px;}
   .content03 span{font-size: 24px;}
-  .caption03{width: 330px;}
+  .caption03{
+    width: 330px;
+    left: 100%;
+  }
   .caption03 div{font-size: 14px;}
   .content04>span{
     width: 370px;
@@ -767,11 +769,8 @@ footer span b{
   .dot04{
     width: 60px;
     height: 60px;
-    top: 780px;
   }
   .caption04{
-    top: -310px;
-    left: -260px;
     width: 330px;
     height: 600px;
   }
