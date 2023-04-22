@@ -714,11 +714,13 @@ footer span b{
     right: -20px;
   }
   .caption01{
-    bottom: 50px;
-    width: 400px;
+    width: 320px;
     height: 420px;
+    bottom: 50px;
+    left: -790%;
   }
   .caption01 div{
+    width: 300px;
     top: 40px;
     font-size: 15px;
   }
@@ -734,6 +736,7 @@ footer span b{
   .caption02{
     width: 320px;
     height: 500px;
+    left: -320px;
   }
   .caption02 div{
     width: 280px;
@@ -750,7 +753,7 @@ footer span b{
   .content04>span{
     width: 370px;
     top: 260px;
-    left: 220px;
+    left: 210px;
     font-size: 58px;
   }
   .glass span:nth-child(2){left: 30%;}
@@ -767,8 +770,8 @@ footer span b{
     top: 780px;
   }
   .caption04{
-    top: -280px;
-    left: -295px;
+    top: -310px;
+    left: -280px;
     width: 330px;
     height: 600px;
   }
