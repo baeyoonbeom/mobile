@@ -692,6 +692,7 @@ footer span b{
 
 /*____________________ Mobile ____________________*/
 @media all and (max-width:767px){
+  html{overflow: visible;}
   header .heading{width: 350px;}
   header ul li{font-size: 20px;}
   .title{font-size: 24px;}
@@ -712,12 +713,12 @@ footer span b{
     width: 40px;
     height: 40px;
     bottom: -20px;
-    right: -20px;
   }
   .caption01{
     width: 320px;
     height: 420px;
     bottom: 50px;
+    left: 100%;
   }
   .caption01 div{
     width: 300px;
@@ -733,6 +734,10 @@ footer span b{
     display: block;
   }
   .content02 p{font-size: calc(46px + 2vw);}
+  .dot02{
+    width: 40px;
+    height: 40px;
+  }
   .caption02{
     width: 320px;
     height: 500px;
@@ -747,6 +752,7 @@ footer span b{
   .caption02 div p{top: -100px;}
   .caption02 a{bottom: 10px;}
   .content03 span{font-size: 24px;}
+  .dot03{left: 5%;}
   .caption03{
     width: 330px;
     left: 100%;
@@ -767,12 +773,14 @@ footer span b{
   .glass span:nth-child(5){display: none;}
   .glass span:nth-child(10){display: none;}
   .dot04{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
+    top: 20%;
   }
   .caption04{
     width: 330px;
     height: 600px;
+    left: 50%;
   }
   .caption04 div{
     width: 250px;
