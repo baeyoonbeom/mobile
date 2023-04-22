@@ -711,13 +711,13 @@ footer span b{
     width: 40px;
     height: 40px;
     bottom: -20px;
-    left: 0;
+    left: -20px;
   }
   .caption01{
     width: 320px;
     height: 420px;
     bottom: 50px;
-    left: 100%;
+    left: 85%;
   }
   .caption01 div{
     width: 300px;
@@ -736,10 +736,12 @@ footer span b{
   .dot02{
     width: 40px;
     height: 40px;
+    top: -40px;
   }
   .caption02{
     width: 320px;
     height: 500px;
+    left: 35%;
   }
   .caption02 div{
     width: 280px;
@@ -754,10 +756,10 @@ footer span b{
     width: 320px;
     font-size: 20px;
   }
-  .dot03{left: 5%;}
+  .dot03{left: -2px;}
   .caption03{
     width: 300px;
-    left: 0;
+    left: 80%;
   }
   .caption03 div{
     width: 280px;
@@ -783,15 +785,18 @@ footer span b{
     top: 20%;
   }
   .caption04{
-    width: 330px;
-    height: 600px;
-    left: 30%;
+    width: 320px;
+    height: 450px;
+    left: -20%;
   }
   .caption04 div{
-    width: 250px;
+    width: 300px;
     top: 20px;
-    font-size: 15px;
+    font-size: 12px;
   }
-  .caption04 div p{margin-bottom: 30px;}
+  .caption04 div p{
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
   .caption04 a{bottom: -100px;}
 }
