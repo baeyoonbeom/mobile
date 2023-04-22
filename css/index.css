@@ -692,7 +692,7 @@ footer span b{
 
 /*____________________ Mobile ____________________*/
 @media all and (max-width:767px){
-  header .heading{width: 400px;}
+  header .heading{width: 350px;}
   .title{font-size: 24px;}
   .content01{
     width: 150px;
@@ -715,11 +715,15 @@ footer span b{
   }
   .caption01{
     bottom: 50px;
-    width: 465px;
+    width: 400px;
     height: 420px;
   }
-  .caption01 div{top: 40px;}
+  .caption01 div{
+    top: 40px;
+    font-size: 15px;
+  }
   .caption01 div p{margin-bottom: 45px;}
+
   .caption01 a{bottom: 5px;}
   .content02 span{font-size: calc(30px + 1vw);}
   .content02 span b{
@@ -728,7 +732,7 @@ footer span b{
   }
   .content02 p{font-size: calc(46px + 2vw);}
   .caption02{
-    width: 350px;
+    width: 320px;
     height: 500px;
   }
   .caption02 div{
@@ -736,10 +740,13 @@ footer span b{
     top: 150px;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 16px;
   }
   .caption02 div p{top: -100px;}
   .caption02 a{bottom: 10px;}
   .content03 span{font-size: 24px;}
+  .caption03{width: 330px;}
+  .caption03 div{font-size: 14px;}
   .content04>span{
     width: 370px;
     top: 260px;
@@ -762,13 +769,13 @@ footer span b{
   .caption04{
     top: -280px;
     left: -295px;
-    width: 350px;
+    width: 330px;
     height: 600px;
   }
   .caption04 div{
     width: 250px;
     top: 20px;
-    font-size: 17px;
+    font-size: 15px;
   }
   .caption04 div p{margin-bottom: 30px;}
   .caption04 a{bottom: -100px;}
