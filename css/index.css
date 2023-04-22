@@ -764,10 +764,10 @@ footer span b{
     font-size: 12px;
   }
   .content04>span{
-    width: 370px;
+    width: 320px;
     top: 260px;
-    left: 210px;
-    font-size: 58px;
+    left: 50%;
+    font-size: 50px;
   }
   .glass span:nth-child(2){left: 40%;}
   .glass span:nth-child(4){
