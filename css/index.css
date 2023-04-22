@@ -662,7 +662,10 @@ footer span b{
   .content02 p{font-size: 90px;}
   .caption02{width: 600px;}
   .caption02 div{left: 57%;}
-  .content03 span{font-size: 60px;}
+  .content03>span{
+    width: 700px;
+    font-size: 45px;
+}
   .caption03{
     width: 700px;
     left: 40%;
@@ -747,13 +750,19 @@ footer span b{
   }
   .caption02 div p{top: -100px;}
   .caption02 a{bottom: 10px;}
-  .content03 span{font-size: 24px;}
+  .content03>span{
+    width: 320px;
+    font-size: 20px;
+  }
   .dot03{left: 5%;}
   .caption03{
-    width: 330px;
-    left: 30%;
+    width: 300px;
+    left: 0;
   }
-  .caption03 div{font-size: 14px;}
+  .caption03 div{
+    width: 280px;
+    font-size: 12px;
+  }
   .content04>span{
     width: 370px;
     top: 260px;
