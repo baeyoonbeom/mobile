@@ -449,17 +449,12 @@ header ul li:hover{color: #bb2649;}
   position: absolute;
   width: 100%;
   height: 700px;
-  overflow: hidden;
   top: 200px;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 1px solid #000;
+  left: 30px;
 }
 .glass span{
   position: absolute;
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
   border: 1px solid rgba(250, 250, 250, 0.1);
   border-radius: 20px;
@@ -468,71 +463,75 @@ header ul li:hover{color: #bb2649;}
   width: 150px;
   height: 300px;
   top: 250px;
-  left: 670px;
+  left: 40%;
 }
 .glass span:nth-child(2){
   width: 300px;
   height: 200px;
   top: 400px;
-  left: 360px;
+  left: 20%;
 }
 .glass span:nth-child(3){
   width: 550px;
   height: 100px;
   top: 200px;
-  left: 520px;
+  left: 30%;
 }
 .glass span:nth-child(4){
-  width: 100px;
-  height: 100px;
-  top: 50px;
-  left: 700px;
-}
-.glass span:nth-child(5){
-  width: 150px;
-  height: 150px;
-  top: 50px;
-  left: 1090px;
-}
-.glass span:nth-child(6){
-  width: 170px;
-  height: 130px;
-  top: 520px;
-  left: 1120px;
-}
-.glass span:nth-child(7){
-  width: 150px;
-  height: 200px;
-  top: 90px;
-  left: 950px;
-}
-.glass span:nth-child(8){
-  width: 120px;
+  width: 300px;
   height: 120px;
-  top: 30px;
-  left: 1570px;
+  top: 75px;
+  left: 30%;
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border: none;
 }
+.glass span:nth-child(5){
+  width: 150px;
+  height: 150px;
+  top: 50px;
+  left: 60%;
+}
+.glass span:nth-child(6){
+  width: 170px;
+  height: 130px;
+  top: 520px;
+  left: 62%;
+}
+.glass span:nth-child(7){
+  width: 150px;
+  height: 200px;
+  top: 90px;
+  left: 50%;
+}
+.glass span:nth-child(8){
+  width: 120px;
+  height: 120px;
+  top: 30px;
+  left: 70%;
+}
 .glass span:nth-child(9){
   width: 270px;
   height: 190px;
   top: 350px;
-  left: 1350px;
+  left: 75%;
 }
 .glass span:nth-child(10){
   width: 190px;
   height: 120px;
   top: 400px;
-  left: 910px;
+  left: 60%;
 }
 .glass span:hover{
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border: none;
+}
+.glass span:nth-child(4):hover{
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(0);
 }
 .dot04{
   position: absolute;
@@ -675,6 +674,14 @@ footer span b{
     left: 400px;
     font-size: 80px;
   }
+  .glass span:nth-child(3){display: none;}
+  .glass span:nth-child(4){
+    width: 270px;
+    left: 16%;
+  }
+  .glass span:nth-child(6){display: none;}
+  .glass span:nth-child(8){display: none;}
+  .glass span:nth-child(9){display: none;}
   .caption04{
     left: -550px;
     width: 530px;
@@ -739,6 +746,14 @@ footer span b{
     left: 220px;
     font-size: 58px;
   }
+  .glass span:nth-child(2){left: 30%;}
+  .glass span:nth-child(4){
+    width: 180px;
+    height: 80px;
+    left: 14%;
+  }
+  .glass span:nth-child(5){display: none;}
+  .glass span:nth-child(10){display: none;}
   .dot04{
     width: 60px;
     height: 60px;
